@@ -28,4 +28,4 @@ to run the simulation.
 8. Now run the simulation using the above code.
   
 # Contact:
-For any queries, please contact: [Suvadip Batabyal](suvadip.batabyal@cse.nitdgp.ac.in)
+For any queries, please contact: Suvadip Batabyal (email: suvadip.batabyal@cse.nitdgp.ac.in)
