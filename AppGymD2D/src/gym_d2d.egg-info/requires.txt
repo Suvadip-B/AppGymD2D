@@ -1,0 +1,8 @@
+gym>=0.9.6
+numpy
+
+[dev]
+flake8
+pytest
+pytest-cov
+pytest-sugar

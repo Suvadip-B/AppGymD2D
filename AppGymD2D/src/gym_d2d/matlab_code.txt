@@ -1,0 +1,15 @@
+b=bar(vals, avg);
+legend('DUE', 'CUE')
+hold on
+for k = 1:numel(b):2                                                     % Recent MATLAB Versions
+    xtips = b(k).XEndPoints;
+    ytips = b(k).YEndPoints;
+    e1=errorbar(xtips,ytips, std(:,k), '.black', 'MarkerSize',0.2)
+    e1.Annotation.LegendInformation.IconDisplayStyle = 'off';
+    xtips = b(k+1).XEndPoints;
+    ytips = b(k+1).YEndPoints;
+    e2=errorbar(xtips,ytips,std(:,k+1), '.black', 'MarkerSize',0.2)
+    e2.Annotation.LegendInformation.IconDisplayStyle = 'off';
+end
+hold off
+saveas(gcf,'Barchart','epsc')
