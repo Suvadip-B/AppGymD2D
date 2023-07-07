@@ -8,7 +8,7 @@ While GymD2D models a static D2D cellular offload scenario, AppGymD2D models a d
 This project is still under active development and the API hasn't stabilised yet. 
 Breaking changes are likely to occur between releases.
 
-# Instructions for instalations:
+# Instructions for installations:
 Please follow [GymD2D](https://github.com/davidcotton/gym-d2d) for installation guide.
 
 # Running a sample simulation:
